@@ -1,0 +1,25 @@
+<h1 class="current-category"><%= params[:category] %></h1>
+
+<% if @wines.count == 0 %>
+
+	<h1>There are no wines currently in this category</h1>
+
+<% else %>
+
+	<div class="row">
+
+		<% @wines.each do |wine| %>
+
+			<div class="col-md-3">
+				<a href="/wines/<%= wine.id %>">
+					<%= image_tag wine.wine_img.url(:wine_index), class: "wine" %>
+				</a>
+			</div>
+
+		<% end %>
+
+	</div>
+
+<% end %>
+
+<%= link_to "Add Wine", new_wine_path %>
