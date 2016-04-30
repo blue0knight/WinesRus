@@ -1,9 +1,6 @@
-# Wine-Advocate
-# Wine-Advocate
-# Wine-Advocate
-# WineAdvocate
-# WineAdvocate
-# WineAdvocate
-# WineAdvocate
-# TotalWine
-# WinesRus
+Users of this application will be able to sign up for an account. Sign in and Sign Out. Users will also have the ability to "Add Wine", and for each wine, a user will also have the ability to "Add Review".
+
+Every time a user adds a wine, his wine will be associated with an image, a category, origin of the wine, and some basic information. When a user creates a review, you will see a five-star rating and a comment.
+
+To create a wine, there will be a link up in the NAV bar where you’ll link to a wine form, will be able to select the category for the wine, and also choose a file image to upload. There will also be some information about the wine.  In the home page, we’re going to browse through all the wines and display them. On the navbar, we have a link to filter by category. So if we just want to see the wines that are in the “Red Wine” Category, we just click the category we want, and we’ll see just those wines that are in the category you selected. To add a review on a wine, we just simply click on the wine, scroll down, and you’ll see the "Add Review" button. The "Add Review" button will be able to add a rating based on a five-star rating system, and add a comment. On the wine show page, we will have an average rating section, which is going to determine the average rating, based on the number of reviews that are currently present.
+
